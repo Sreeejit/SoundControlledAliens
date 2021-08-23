@@ -8,15 +8,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap" rel="stylesheet">
   </head>
 
   <body>
       <center>
-          <h1>Audio Century</h1>
+          <h1 id ="AudioHeading">Audio Century</h1>
           <h3>Best Audio Game because it's the first!</h3>
           <br>
         <br>
-        <button id = "StartB">Start</button>
+        <button id = "StartB" onclick="startClassification()">Start</button>
         <br>
         <br>
         <h2 id = "HearingIsNeeded">I Can Hear - </h2>
@@ -33,6 +36,9 @@
         <img src="aliens-04.png" id = "WhistleAlien" class="TheAliens">
 
       </center>
+      <div class="copy_right_footer">
+        Developed by - SG Prime Time
+      </div>
 <script src="main.js"></script>
   </body>
 </html>
